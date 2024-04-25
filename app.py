@@ -77,7 +77,7 @@ def main():
     for list_group in list_group_elements:
         a_tags = list_group.find_all("a")
         for a_tag in a_tags:
-            st.video(a_tag["href"])
+            st.video("https://pixabay.com/en/videos/star-long-exposure-starry-sky-sky-6962/")
             st.write(a_tag.text)
     # Do something with the a_tags
     # Find all video tags inside the card-header class
